@@ -1,0 +1,66 @@
+.container{
+    width: 100vw;
+    height: 99.9vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #b33838;
+}
+
+.background-panel{
+    width: 40%;
+    height: 94%;
+    background-color: rgba(17, 34, 38, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-container{
+    background: rgb(73, 96, 74);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.proceed-button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.proceed-button:hover{
+    background-color: #0056b3;
+}
+
+.greeting {
+    color: #4dff00;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container{
+        justify-content: center;
+    }
+
+    .background-panel{
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .form-container{
+        width: 100%;
+    }
+}
+
